@@ -7,7 +7,7 @@
 
 ####自定义内容####
 ubuntu/squid
---platform=linux/arm64 ubuntu/squid
---platform=linux/arm64 portainer/portainer-ce:2.18.2
---platform=linux/arm64 ghcr.io/home-assistant/home-assistant:2024.2.2
---platform=linux/arm64 nodered/node-red:3.1.5
+--platform=linux/arm64/v8 ubuntu/squid
+--platform=linux/arm64/v8 portainer/portainer-ce:2.18.2
+--platform=linux/arm64/v8 ghcr.io/home-assistant/home-assistant:2024.2.2
+--platform=linux/arm64/v8 nodered/node-red:3.1.5
